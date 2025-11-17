@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BigFat Tech Shop - Premium Websites & Digital Services</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root { --blue: #0EA5E9; --gold: #F59E0B; --dark: #0F172A; }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Inter',sans-serif; background:var(--dark); color:white; }
+    a { text-decoration:none; color:inherit; }
+    .hero { min-height:100vh; background:linear-gradient(135deg,var(--blue),var(--dark)); text-align:center; padding:100px 20px; display:flex; align-items:center; justify-content:center; }
+    h1 { font-size:4.5rem; font-weight:900; background:linear-gradient(to right,#fff,var(--gold)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .btn { background:#25D366; padding:20px 50px; border-radius:50px; font-size:1.5rem; font-weight:bold; display:inline-flex; gap:15px; align-items:center; margin-top:30px; }
+    .products { padding:80px 20px; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; max-width:1200px; margin:0 auto; }
+    .product-card { background:#1e293b; border-radius:20px; overflow:hidden; transition:0.4s; }
+    .product-card:hover { transform:translateY(-15px); }
+    .product-card img { width:100%; height:250px; object-fit:cover; }
+    .info { padding:20px; text-align:center; }
+    .price { color:var(--gold); font-size:1.8rem; font-weight:bold; }
+    .old { text-decoration:line-through; color:#64748b; }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div>
+      <h1>BigFat Tech Shop</h1>
+      <p style="font-size:1.6rem;margin:20px 0;">Buy Premium Ready-Made Websites That Make Money From Day 1!</p>
+      <a href="https://wa.me/2348120919156?text=Bello!%20I%20want%20to%20buy%20a%20ready-made%20website!" class="btn">
+        <i class="fab fa-whatsapp"></i> Buy Now on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section class="products">
+    <h2 style="text-align:center;font-size:3rem;margin-bottom:50px;">Ready to Launch Websites</h2>
+    <a href="shop.html">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/400x250/0EA5E9/fff?text=Food+Delivery+Site" alt="Food Site">
+        <div class="info">
+          <h3>Food Delivery Website</h3>
+          <p class="price">₦85,000 <span class="old">₦200,000</span></p>
+          <p>Full restaurant + online ordering</p>
+        </div>
+      </div>
+    </a>
+    <!-- Add more -->
+  </section>
+
+</body>
+</html>
